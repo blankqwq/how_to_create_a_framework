@@ -13,7 +13,7 @@
 
 > ### SDK 的类型
 
-![image.png](http://note.youdao.com/yws/res/19623/WEBRESOURCE0937f9da90fc0cfea087e8d8696d5293)
+![image.png](../images/other/sdk-image1.png)
 
 根据不同的应用场景可以分为一下几种类型：
 
@@ -38,7 +38,7 @@
 
 - 一个简单的对接模型
 
-![image.png](http://note.youdao.com/yws/res/19626/WEBRESOURCE54f2abd11a2aeb2e8751f2b934a3c223)
+![image.png](../images/other/sdk-image2.png)
 
 核心是获取数据，但是调用的方式有很多，并且这种模式可以选择，单入口/单独调用都行
 
