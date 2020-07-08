@@ -2,15 +2,18 @@
 
 - 作者: blankqwq
 - 时间: 20200630
-- 邮箱: 1136589038@qq.com
+
+我们这里的SDK仅仅指
 
 > ### SDK 是什么
 
     SDK是对基础程序库(函数库)的一种封装，又称之为`软件开发工具包`。
     
-    SDK是一种DSL(Domain Specific Language)领域特定语言，对某需求的使用性阐述语言
+    SDK是一种DSL(Domain Specific Language)领域特定语言，对某需求的使用性阐述可运行语言
 
 > ### SDK 的类型
+
+![image.png](http://note.youdao.com/yws/res/19623/WEBRESOURCE0937f9da90fc0cfea087e8d8696d5293)
 
 根据不同的应用场景可以分为一下几种类型：
 
@@ -25,11 +28,22 @@
     - 框架类型: 多种组件的组合,已经脱离了我们的sdk范围,`laravel/framework`,`thinphp/framework`,`blankphp/framework`
 - 使用上划分
     - 每个子模块都可以单独运行
-    - 通过特定模块使用入口进行执行
-    - 依赖其他组件(在框架中)才可运行(一般我们会针对框架进行适配)
+    - 通过特定模块使用入口进行执行(通常通过工厂模式等)
+    - 依赖其他组件(在框架中)才可运行
 - DSL类型上划分
     - 内部DSL，用宿主语言实现，例如`psr`
     - 外部DSL，自己设计的调用方式，例如`easywechart`
+
+> 基础模型
+
+- 一个简单的对接模型
+
+![image.png](http://note.youdao.com/yws/res/19626/WEBRESOURCE54f2abd11a2aeb2e8751f2b934a3c223)
+
+核心是获取数据，但是调用的方式有很多，并且这种模式可以选择，单入口/单独调用都行
+
+
+- 复杂的对接模型
 
 
 
@@ -105,10 +119,10 @@ A-->B
 > Tag规范
 
 
-| header 1    | header 2    |
-| ----------- | ----------- |
-| row 1 col 1 | row 1 col 2 |
-| row 2 col 1 | row 2 col 2 |
+header 1 | header 2
+---|---
+row 1 col 1 | row 1 col 2
+row 2 col 1 | row 2 col 2
 
 
 
@@ -117,3 +131,4 @@ A-->B
 1. 
 
 ### 总结
+
